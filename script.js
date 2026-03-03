@@ -1,0 +1,141 @@
+const translations = {
+  'en-US': {
+    navAbout: 'About',
+    navServices: 'Services',
+    navReviews: 'Reviews',
+    navContact: 'Contact',
+    languageLabel: 'Language',
+    heroEyebrow: 'Piano services based in Montreal',
+    tagline: "Restore your piano's true voice.",
+    bullet1: 'Standard Tuning',
+    bullet2: 'Action Regulation & Repairs',
+    bullet3: 'Deep Cleaning',
+    ctaQuote: 'Get a quote',
+    aboutEyebrow: 'Play skillfully. Restore your instrument with care.',
+    aboutTitle: 'About Us',
+    aboutBody:
+      'Precision is an art. As a musician and technician, I bring a performer’s ear and a craftsman’s touch to every instrument. Whether it\'s a routine tuning or a complex repair, we restore your piano\'s true voice.',
+    servicesTitle: 'Our Services',
+    servicesIntro: 'Professional care tailored to the unique mechanical and acoustic needs of your instrument.',
+    serviceTuningTitle: 'Piano Tuning',
+    serviceTuningBody:
+      'Precise aural and electronic tuning to bring your piano back to concert pitch. Essential for ear training and musical enjoyment.',
+    serviceRepairTitle: 'Piano Repair',
+    serviceRepairBody:
+      'Fixing sticky keys, broken strings, or unresponsive pedals. We use professional-grade materials to ensure long-lasting mechanical reliability.',
+    serviceCleaningTitle: 'Piano Cleaning',
+    serviceCleaningBody:
+      'Deep removal of dust and debris from the soundboard, keys, and action. Improves hygiene and prevents premature wear of internal parts.',
+    reviewsTitle: 'Client Testimonials',
+    review1:
+      '“Incredible service! My grand piano sounds better than it has in years. The tuning was meticulous and handled with such care.”',
+    review2:
+      '“Very professional and punctual. Fixed a sticky key issue that had been bothering me for months. A true master of his craft.”',
+    review3:
+      '“The deep cleaning made my upright look brand new on the inside. Highly recommended for anyone wanting top-tier maintenance.”',
+    reviewSource: 'Google Review',
+    reviewsButton: 'See all Google reviews',
+    contactEyebrow: 'Get in touch',
+    contactTitle: 'Contact for a quote',
+    contactBody:
+      'Tell us your piano model, location, and service needed. We’ll get back to you with a personalized quote.',
+    formName: 'Name',
+    formEmail: 'Email',
+    formPhone: 'Phone Number (optional)',
+    formMessage: 'Message',
+    formSubmit: 'Send Request',
+  },
+  'fr-CA': {
+    navAbout: 'À propos', navServices: 'Services', navReviews: 'Avis', navContact: 'Contact', languageLabel: 'Langue',
+    heroEyebrow: 'Services de piano basés à Montréal', tagline: 'Rétablissez la vraie voix de votre piano.', bullet1: 'Accordage standard', bullet2: 'Régulation & réparations de mécanique', bullet3: 'Nettoyage en profondeur', ctaQuote: 'Demander une soumission',
+    aboutEyebrow: 'Jouez avec finesse. Restaurez votre instrument avec soin.', aboutTitle: 'À propos',
+    aboutBody: 'La précision est un art. En tant que musicien et technicien, j’apporte à chaque instrument l’oreille d’un interprète et la touche d’un artisan. Qu’il s’agisse d’un accordage de routine ou d’une réparation complexe, nous rétablissons la vraie voix de votre piano.',
+    servicesTitle: 'Nos Services', servicesIntro: 'Des soins professionnels adaptés aux besoins mécaniques et acoustiques uniques de votre instrument.',
+    serviceTuningTitle: 'Accordage de piano', serviceTuningBody: 'Accordage auditif et électronique précis pour ramener votre piano au diapason de concert. Essentiel pour le développement de l’oreille et le plaisir musical.',
+    serviceRepairTitle: 'Réparation de piano', serviceRepairBody: 'Réparation des touches collantes, cordes cassées ou pédales non réactives. Nous utilisons des matériaux de qualité professionnelle pour assurer une fiabilité mécanique durable.',
+    serviceCleaningTitle: 'Nettoyage de piano', serviceCleaningBody: 'Élimination en profondeur de la poussière et des débris du sommier, des touches et de la mécanique. Améliore l’hygiène et prévient l’usure prématurée des pièces internes.',
+    reviewsTitle: 'Témoignages clients', review1: '« Service incroyable! Mon piano à queue sonne mieux que depuis des années. L’accordage était méticuleux et fait avec grand soin. »', review2: '« Très professionnel et ponctuel. Il a réglé une touche collante qui me dérangeait depuis des mois. Un vrai maître de son art. »', review3: '« Le nettoyage en profondeur a rendu mon piano droit comme neuf à l’intérieur. Fortement recommandé pour un entretien haut de gamme. »', reviewSource: 'Avis Google', reviewsButton: 'Voir tous les avis Google',
+    contactEyebrow: 'Entrons en contact', contactTitle: 'Demander une soumission', contactBody: 'Indiquez le modèle de votre piano, votre emplacement et le service souhaité. Nous vous répondrons avec une soumission personnalisée.',
+    formName: 'Nom', formEmail: 'Courriel', formPhone: 'Téléphone (optionnel)', formMessage: 'Message', formSubmit: 'Envoyer la demande',
+  },
+  'es-LA': {
+    navAbout: 'Nosotros', navServices: 'Servicios', navReviews: 'Reseñas', navContact: 'Contacto', languageLabel: 'Idioma',
+    heroEyebrow: 'Servicios de piano en Montreal', tagline: 'Restaura la verdadera voz de tu piano.', bullet1: 'Afinación estándar', bullet2: 'Regulación y reparaciones', bullet3: 'Limpieza profunda', ctaQuote: 'Solicitar cotización',
+    aboutEyebrow: 'Toca con precisión. Restaura tu instrumento con cuidado.', aboutTitle: 'Sobre nosotros',
+    aboutBody: 'La precisión es un arte. Como músico y técnico, aporto el oído de un intérprete y la mano de un artesano a cada instrumento. Ya sea una afinación de rutina o una reparación compleja, restauramos la verdadera voz de tu piano.',
+    servicesTitle: 'Nuestros servicios', servicesIntro: 'Cuidado profesional adaptado a las necesidades mecánicas y acústicas de tu instrumento.',
+    serviceTuningTitle: 'Afinación de piano', serviceTuningBody: 'Afinación auditiva y electrónica precisa para devolver tu piano al tono de concierto. Esencial para el entrenamiento del oído y el disfrute musical.',
+    serviceRepairTitle: 'Reparación de piano', serviceRepairBody: 'Reparación de teclas pegadas, cuerdas rotas o pedales que no responden. Usamos materiales de grado profesional para garantizar una fiabilidad mecánica duradera.',
+    serviceCleaningTitle: 'Limpieza de piano', serviceCleaningBody: 'Eliminación profunda de polvo y residuos de la tabla armónica, teclas y mecanismo. Mejora la higiene y previene el desgaste prematuro de las partes internas.',
+    reviewsTitle: 'Testimonios de clientes', review1: '“¡Servicio increíble! Mi piano de cola suena mejor que en años. La afinación fue meticulosa y con mucho cuidado.”', review2: '“Muy profesional y puntual. Solucionó una tecla pegada que me molestaba desde hace meses. Un verdadero maestro.”', review3: '“La limpieza profunda dejó mi piano vertical como nuevo por dentro. Muy recomendado para mantenimiento de alto nivel.”', reviewSource: 'Reseña de Google', reviewsButton: 'Ver todas las reseñas',
+    contactEyebrow: 'Ponte en contacto', contactTitle: 'Contacto para cotización', contactBody: 'Cuéntanos el modelo de tu piano, tu ubicación y el servicio que necesitas. Te responderemos con una cotización personalizada.',
+    formName: 'Nombre', formEmail: 'Correo', formPhone: 'Teléfono (opcional)', formMessage: 'Mensaje', formSubmit: 'Enviar solicitud',
+  },
+  'pt-BR': {
+    navAbout: 'Sobre', navServices: 'Serviços', navReviews: 'Avaliações', navContact: 'Contato', languageLabel: 'Idioma',
+    heroEyebrow: 'Serviços de piano em Montreal', tagline: 'Restaure a verdadeira voz do seu piano.', bullet1: 'Afinação padrão', bullet2: 'Regulagem e reparos', bullet3: 'Limpeza profunda', ctaQuote: 'Pedir orçamento',
+    aboutEyebrow: 'Toque com precisão. Restaure seu instrumento com cuidado.', aboutTitle: 'Sobre nós',
+    aboutBody: 'Precisão é uma arte. Como músico e técnico, levo a cada instrumento o ouvido de um intérprete e o toque de um artesão. Seja uma afinação de rotina ou um reparo complexo, restauramos a verdadeira voz do seu piano.',
+    servicesTitle: 'Nossos serviços', servicesIntro: 'Cuidado profissional adaptado às necessidades mecânicas e acústicas do seu instrumento.',
+    serviceTuningTitle: 'Afinação de piano', serviceTuningBody: 'Afinação auditiva e eletrônica precisa para trazer seu piano de volta ao tom de concerto. Essencial para treino auditivo e prazer musical.',
+    serviceRepairTitle: 'Reparo de piano', serviceRepairBody: 'Conserto de teclas travadas, cordas quebradas ou pedais sem resposta. Usamos materiais de nível profissional para garantir confiabilidade mecânica duradoura.',
+    serviceCleaningTitle: 'Limpeza de piano', serviceCleaningBody: 'Remoção profunda de poeira e resíduos do tampo harmônico, teclas e mecanismo. Melhora a higiene e evita desgaste prematuro das peças internas.',
+    reviewsTitle: 'Depoimentos de clientes', review1: '“Serviço incrível! Meu piano de cauda soa melhor do que em anos. A afinação foi meticulosa e cuidadosa.”', review2: '“Muito profissional e pontual. Corrigiu uma tecla presa que me incomodava há meses. Um verdadeiro mestre.”', review3: '“A limpeza profunda deixou meu piano vertical como novo por dentro. Altamente recomendado.”', reviewSource: 'Avaliação do Google', reviewsButton: 'Ver todas as avaliações',
+    contactEyebrow: 'Entre em contato', contactTitle: 'Contato para orçamento', contactBody: 'Informe o modelo do seu piano, sua localização e o serviço necessário. Retornaremos com um orçamento personalizado.',
+    formName: 'Nome', formEmail: 'E-mail', formPhone: 'Telefone (opcional)', formMessage: 'Mensagem', formSubmit: 'Enviar solicitação',
+  },
+  'de-DE': {
+    navAbout: 'Über uns', navServices: 'Leistungen', navReviews: 'Bewertungen', navContact: 'Kontakt', languageLabel: 'Sprache',
+    heroEyebrow: 'Klavierservice in Montreal', tagline: 'Stellen Sie die wahre Stimme Ihres Klaviers wieder her.', bullet1: 'Standardstimmung', bullet2: 'Regulierung & Reparaturen', bullet3: 'Tiefenreinigung', ctaQuote: 'Angebot anfragen',
+    aboutEyebrow: 'Spielen Sie präzise. Pflegen Sie Ihr Instrument mit Sorgfalt.', aboutTitle: 'Über uns',
+    aboutBody: 'Präzision ist eine Kunst. Als Musiker und Techniker bringe ich das Gehör eines Interpreten und das handwerkliche Feingefühl eines Fachmanns in jedes Instrument ein. Ob routinemäßige Stimmung oder komplexe Reparatur – wir stellen die wahre Stimme Ihres Klaviers wieder her.',
+    servicesTitle: 'Unsere Leistungen', servicesIntro: 'Professionelle Betreuung, abgestimmt auf die mechanischen und akustischen Anforderungen Ihres Instruments.',
+    serviceTuningTitle: 'Klavierstimmung', serviceTuningBody: 'Präzise akustische und elektronische Stimmung, um Ihr Klavier wieder auf Konzerttonhöhe zu bringen. Unverzichtbar für Gehörbildung und musikalischen Genuss.',
+    serviceRepairTitle: 'Klavierreparatur', serviceRepairBody: 'Behebung klemmender Tasten, gerissener Saiten oder nicht reagierender Pedale. Wir verwenden professionelle Materialien für langfristige mechanische Zuverlässigkeit.',
+    serviceCleaningTitle: 'Klavierreinigung', serviceCleaningBody: 'Gründliche Entfernung von Staub und Ablagerungen aus Resonanzboden, Tasten und Mechanik. Verbessert die Hygiene und verhindert vorzeitigen Verschleiß interner Teile.',
+    reviewsTitle: 'Kundenstimmen', review1: '„Unglaublicher Service! Mein Flügel klingt besser als seit Jahren. Die Stimmung war äußerst sorgfältig.“', review2: '„Sehr professionell und pünktlich. Ein klemmendes Tastenproblem wurde perfekt behoben. Ein echter Meister seines Fachs.“', review3: '„Die Tiefenreinigung ließ mein Klavier innen wie neu aussehen. Sehr empfehlenswert.“', reviewSource: 'Google-Bewertung', reviewsButton: 'Alle Bewertungen ansehen',
+    contactEyebrow: 'Kontakt aufnehmen', contactTitle: 'Kontakt für ein Angebot', contactBody: 'Nennen Sie uns Ihr Klaviermodell, Ihren Standort und die gewünschte Leistung. Wir melden uns mit einem individuellen Angebot zurück.',
+    formName: 'Name', formEmail: 'E-Mail', formPhone: 'Telefon (optional)', formMessage: 'Nachricht', formSubmit: 'Anfrage senden',
+  },
+  'it-IT': {
+    navAbout: 'Chi siamo', navServices: 'Servizi', navReviews: 'Recensioni', navContact: 'Contatto', languageLabel: 'Lingua',
+    heroEyebrow: 'Servizi per pianoforte a Montreal', tagline: 'Ristabilisci la vera voce del tuo pianoforte.', bullet1: 'Accordatura standard', bullet2: 'Regolazione e riparazioni', bullet3: 'Pulizia profonda', ctaQuote: 'Richiedi preventivo',
+    aboutEyebrow: 'Suona con precisione. Restaura il tuo strumento con cura.', aboutTitle: 'Chi siamo',
+    aboutBody: 'La precisione è un’arte. Come musicista e tecnico, porto a ogni strumento l’orecchio di un interprete e il tocco di un artigiano. Che si tratti di un’accordatura di routine o di una riparazione complessa, ripristiniamo la vera voce del tuo pianoforte.',
+    servicesTitle: 'I nostri servizi', servicesIntro: 'Cura professionale su misura per le esigenze meccaniche e acustiche del tuo strumento.',
+    serviceTuningTitle: 'Accordatura pianoforte', serviceTuningBody: 'Accordatura acustica ed elettronica precisa per riportare il tuo pianoforte all’intonazione da concerto. Essenziale per l’allenamento dell’orecchio e il piacere musicale.',
+    serviceRepairTitle: 'Riparazione pianoforte', serviceRepairBody: 'Riparazione di tasti bloccati, corde rotte o pedali non reattivi. Utilizziamo materiali professionali per garantire affidabilità meccanica duratura.',
+    serviceCleaningTitle: 'Pulizia pianoforte', serviceCleaningBody: 'Rimozione profonda di polvere e detriti da tavola armonica, tasti e meccanica. Migliora l’igiene e previene l’usura prematura delle parti interne.',
+    reviewsTitle: 'Testimonianze clienti', review1: '“Servizio incredibile! Il mio pianoforte a coda suona meglio che negli ultimi anni. Accordatura meticolosa e grande cura.”', review2: '“Molto professionale e puntuale. Ha risolto un tasto bloccato che mi dava problemi da mesi. Un vero maestro.”', review3: '“La pulizia profonda ha reso il mio verticale come nuovo all’interno. Consigliatissimo.”', reviewSource: 'Recensione Google', reviewsButton: 'Vedi tutte le recensioni',
+    contactEyebrow: 'Mettiti in contatto', contactTitle: 'Contatto per preventivo', contactBody: 'Indicaci il modello del tuo pianoforte, la tua posizione e il servizio richiesto. Ti risponderemo con un preventivo personalizzato.',
+    formName: 'Nome', formEmail: 'Email', formPhone: 'Telefono (opzionale)', formMessage: 'Messaggio', formSubmit: 'Invia richiesta',
+  },
+};
+
+const languageSelect = document.querySelector('#language');
+const i18nNodes = document.querySelectorAll('[data-i18n]');
+const i18nPlaceholderNodes = document.querySelectorAll('[data-i18n-placeholder]');
+const yearNode = document.querySelector('#year');
+
+function applyLanguage(languageCode) {
+  const copy = translations[languageCode] || translations['en-US'];
+
+  i18nNodes.forEach((node) => {
+    const key = node.dataset.i18n;
+    if (copy[key]) node.textContent = copy[key];
+  });
+
+  i18nPlaceholderNodes.forEach((node) => {
+    const key = node.dataset.i18nPlaceholder;
+    if (copy[key]) node.placeholder = copy[key];
+  });
+
+  document.documentElement.lang = languageCode;
+}
+
+const browserLanguage = navigator.language in translations ? navigator.language : 'en-US';
+languageSelect.value = browserLanguage;
+applyLanguage(browserLanguage);
+languageSelect.addEventListener('change', (event) => applyLanguage(event.target.value));
+
+yearNode.textContent = new Date().getFullYear();
