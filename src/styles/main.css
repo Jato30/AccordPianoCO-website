@@ -338,6 +338,19 @@ h3 {
   padding: 0.5rem 0.9rem;
 }
 
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.social-icon {
+  width: 1rem;
+  height: 1rem;
+  flex: 0 0 1rem;
+}
+
 .quote-form {
   display: grid;
   gap: 0.9rem;
