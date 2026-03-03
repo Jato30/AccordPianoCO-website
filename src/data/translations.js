@@ -11,7 +11,7 @@ export const translations = {
     bullet2: 'Action Regulation & Repairs',
     bullet3: 'Deep Cleaning',
     ctaQuote: 'Get a quote',
-    aboutEyebrow: 'Play skillfully. Restore your instrument with care.',
+    aboutEyebrow: 'Sing to him a new song; play skillfully, and shout for joy',
     aboutTitle: 'About Us',
     aboutBody:
       'Precision is an art. As a musician and technician, I bring a performer’s ear and a craftsman’s touch to every instrument. Whether it\'s a routine tuning or a complex repair, we restore your piano\'s true voice.',
@@ -48,7 +48,7 @@ export const translations = {
   'fr-CA': {
     navAbout: 'À propos', navServices: 'Services', navReviews: 'Avis', navContact: 'Contact', languageLabel: 'Langue',
     heroEyebrow: 'Services de piano basés à Montréal', tagline: 'Rétablissez la vraie voix de votre piano.', bullet1: 'Accordage standard', bullet2: 'Régulation & réparations de mécanique', bullet3: 'Nettoyage en profondeur', ctaQuote: 'Demander une soumission',
-    aboutEyebrow: 'Jouez avec finesse. Restaurez votre instrument avec soin.', aboutTitle: 'À propos',
+    aboutEyebrow: 'Chantez-lui un cantique nouveau! Faites retentir vos instruments et vos voix.', aboutTitle: 'À propos',
     aboutBody: 'La précision est un art. En tant que musicien et technicien, j’apporte à chaque instrument l’oreille d’un interprète et la touche d’un artisan. Qu’il s’agisse d’un accordage de routine ou d’une réparation complexe, nous rétablissons la vraie voix de votre piano.',
     servicesTitle: 'Nos Services', servicesIntro: 'Des soins professionnels adaptés aux besoins mécaniques et acoustiques uniques de votre instrument.',
     serviceTuningTitle: 'Accordage de piano', serviceTuningBody: 'Accordage auditif et électronique précis pour ramener votre piano au diapason de concert. Essentiel pour le développement de l’oreille et le plaisir musical.',
