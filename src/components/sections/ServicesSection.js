@@ -1,6 +1,7 @@
 export function ServicesSection() {
   return `
-    <section class="services section-theme-light" id="services">
+    <section class="services section-theme-dark" id="services">
+      <div class="theme-overlay"></div>
       <div class="container">
         <div class="section-head center">
           <p class="spark">✧</p>

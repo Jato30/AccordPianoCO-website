@@ -1,7 +1,6 @@
 export function AboutSection() {
   return `
-    <section class="about section-theme-dark" id="about">
-      <div class="theme-overlay"></div>
+    <section class="about section-theme-light" id="about">
       <div class="container center">
         <p class="eyebrow" data-i18n="aboutEyebrow">Play skillfully. Restore your instrument with care.</p>
         <h2 data-i18n="aboutTitle">About Us</h2>

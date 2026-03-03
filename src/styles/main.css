@@ -190,7 +190,6 @@ body {
 
 .about {
   min-height: 60vh;
-  background-image: url('https://images.unsplash.com/photo-1507838153414-b4b713384a76?auto=format&fit=crop&w=1800&q=80');
   display: grid;
   place-items: center;
 }
@@ -218,6 +217,10 @@ h2 {
   padding: 5rem 0;
 }
 
+.services {
+  background-image: url('https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?auto=format&fit=crop&w=2000&q=80');
+}
+
 .spark {
   margin: 0;
   color: var(--primary);
@@ -229,6 +232,10 @@ h2 {
   margin: 0 auto 2rem;
   font-size: 1.25rem;
   color: #5e6068;
+}
+
+.section-theme-dark .section-copy {
+  color: #e0e5ea;
 }
 
 .service-cards,
@@ -315,9 +322,6 @@ h3 {
   gap: 1.4rem;
 }
 
-.contact .section-copy {
-  color: #e6e8eb;
-}
 
 .socials {
   display: flex;
